@@ -1,0 +1,49 @@
+<html>
+<head>
+    <style>
+        /* 这里可以添加你的样式表 */
+        .header {
+            background-color: yellow;
+            height: 100px;
+        }
+        .nav {
+            background-color: blue;
+            width: 200px;
+            float: left;
+        }
+        .content {
+            background-color: green;
+            margin-left: 200px;
+        }
+        .right1 {
+            background-color: brown;
+            width: 100px;
+            height: 200px;
+            float: right;
+        }
+        .right2 {
+            background-color: brown;
+            width: 100px;
+            height: 200px;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <!-- 这里可以放置你的头部元素，如logo、搜索框、导航栏等 -->
+    </div>
+    <div class="nav">
+        <!-- 这里可以放置你的导航栏，如出版物新闻/商务/第三方的链接 -->
+    </div>
+    <div class="content">
+        <!-- 这里可以放置你的主要内容，如大图轮播区域 -->
+    </div>
+    <div class="right1">
+        <!-- 这里可以放置你的右侧栏目一 -->
+    </div>
+    <div class="right2">
+        <!-- 这里可以放置你的右侧栏目二 -->
+    </div>
+</body>
+</html>
