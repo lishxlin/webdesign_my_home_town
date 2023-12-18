@@ -1,0 +1,62 @@
+.left_Theme
+{
+	/* border: 1px solid black; */
+	height: 200px;
+}
+
+.right_theme
+{
+	/* border: 1px solid black; */
+	height: 400px;
+}
+
+#main_contents
+{
+	display: block;
+	/* border: 1px solid black; */
+	/* height: auto; */
+}
+
+#contentLeft
+{
+	width: 30%;
+	vertical-align: top;
+	display: inline-block;
+	/* border: 1px solid blue; */
+}
+
+#contentRight
+{
+	width: 30%;
+	vertical-align: top;
+	/* border: 1px solid blue; */
+	display: inline-block;
+}
+
+#center_dyanmic_content
+{
+	/* border: 1px solid black; */
+	vertical-align: top;
+	display: inline-block;
+	width: 39%;
+}
+
+/* Start bridge */
+#bridge
+{
+	/* text-align: center; */
+	color: white;
+	background-image: url(../images/wuhan_bridge_all.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+
+#bridge h1
+{
+	padding-left: 20px;
+	padding-top: 10px;
+	margin: 0;
+	font-size: 25px;
+}

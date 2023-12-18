@@ -4,16 +4,53 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My Home Town</title>
+
 	<link rel="stylesheet" type="text/css" href="css/headers.css">
 	<link rel="stylesheet" type="text/css" href="css/navgs.css">
+	<link rel="stylesheet" type="text/css" href="css/indexMainContents.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
 </head>
 <body>
+	<script src="scripts/redirect.js"></script>
 	<div id="header" class="">
-		#Header
-		<div id="logo" class="">Logo</div>
+		<div id="logo">
+			武汉
+		</div>
 	</div>
 	<div id="navg" class="">
-		#Nav
+		<ul id="listFrame">
+			<li class="listItem"><a class="link" href="/">首页</a></li>
+			<li class="listItem"><a class="link" href="/about_han.html">了解武汉</a></li>
+			<li class="listItem"><a class="link" href="/about_history.html">了解历史</a></li>
+			<li class="listItem"><a class="link" href="/where_to_play.html">玩</a></li>
+			<li class="listItem"><a class="link" href="/about_transport.html">交通</a></li>
+		</ul>
+	</div>
+	<div id="main_contents" class="">
+		<!--Left contents container-->
+		<div id="contentLeft" class="">
+			<div id="bridge" class="left_Theme">
+				<h1>武汉的桥梁</h1>
+				Fill text ....
+			</div>
+			<div class="left_Theme">武汉的铁路</div>
+			<div class="left_Theme">武汉的气候</div>
+			<div class="left_Theme">武汉的城区</div>
+		</div>
+		<!--Center contents container-->
+		<div id="center_dyanmic_content">CDT</div>
+		<!--Right contents container-->
+		<div id="contentRight">
+			<div class="right_theme">
+				我可以在武汉玩什么
+			</div>
+			<div class="right_theme">
+				武汉的交通怎么样
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<pre>{{text.copyright}}</pre>
 	</div>
 </body>
 </html>
