@@ -33,12 +33,16 @@
 	display: inline-block;
 }
 
-#center_dyanmic_content
+#center_dynamic_content
 {
 	/* border: 1px solid black; */
 	vertical-align: top;
-	display: inline-block;
+	display: inline-flex;
 	width: 39%;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
 }
 
 /* Start bridge */
@@ -59,4 +63,10 @@
 	padding-top: 10px;
 	margin: 0;
 	font-size: 25px;
+}
+
+/* Start Center images looping */
+#images
+{
+	transition: opacity 0.5s;
 }

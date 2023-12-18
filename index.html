@@ -11,7 +11,6 @@
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 </head>
 <body>
-	<script src="scripts/redirect.js"></script>
 	<div id="header" class="">
 		<div id="logo">
 			武汉
@@ -38,7 +37,9 @@
 			<div class="left_Theme">武汉的城区</div>
 		</div>
 		<!--Center contents container-->
-		<div id="center_dyanmic_content">CDT</div>
+		<div id="center_dynamic_content">
+			<img id="images" src="images/looping/LINBO.png">
+		</div>
 		<!--Right contents container-->
 		<div id="contentRight">
 			<div class="right_theme">
@@ -50,7 +51,17 @@
 		</div>
 	</div>
 	<div id="footer">
-		<pre>{{text.copyright}}</pre>
+		<pre>
+			{{text.copyright}}
+		</pre>
+		<pre>
+			Pictures that this site used:
+			浪摄流杨柯@Bilibili.com
+			奔跑De-蜗牛@Bilibili.com
+		</pre>
 	</div>
+	<!-- Place script to buttom -->
+	<script src="scripts/redirect.js"></script>
+	<script src="scripts/loop_img.js"></script>
 </body>
 </html>
