@@ -8,6 +8,14 @@
 {
 	/* border: 1px solid black; */
 	height: 400px;
+
+}
+
+.texting
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	font-style: italic;
 }
 
 #main_contents
@@ -39,6 +47,7 @@
 	vertical-align: top;
 	display: inline-flex;
 	width: 39%;
+	max-height: 800px;
 	justify-content: center;
 	align-items: center;
 	position: relative;
@@ -65,8 +74,111 @@
 	font-size: 25px;
 }
 
+/* Start Railway */
+#railway
+{
+	color: white;
+	background-image: url(../images/WUCHANG.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+
+#railway h1
+{
+	padding-left: 20px;
+	padding-top: 10px;
+	margin: 0;
+	font-size: 25px;
+}
+
+/* Start Weather */
+#weather
+{
+	color: white;
+	background-image: url(../images/weather.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+
+#weather h1
+{
+	padding-left: 20px;
+	padding-top: 10px;
+	margin: 0;
+	font-size: 25px;
+}
+
+/* Start City Wuhan */
+#wuhan
+{
+	color: white;
+	background-image: url(../images/ISS026-E-12245.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+
+#wuhan h1
+{
+	padding-left: 20px;
+	padding-top: 10px;
+	margin: 0;
+	font-size: 25px;
+}
+
 /* Start Center images looping */
 #images
 {
 	transition: opacity 0.5s;
+}
+
+/* Right Theme 1 */
+.contentRIGHTDETIAL
+{
+	font-size: 25px;
+	text-align: center;
+	transition: all 500ms ease-in-out;
+	cursor: default;
+}
+
+.contentRIGHTDETIAL_MINI
+{
+	font-size: 18px;
+	text-align: center;
+	/* transition: all 500ms ease-in-out; */
+}
+
+#huanghe:hover
+{
+	transition: all 500ms ease-in-out;
+	transform: scale(160%);
+	color: rgb(255, 153, 0);
+}
+
+#daqiao:hover
+{
+	transition: all 500ms ease-in-out;
+	transform: scale(160%);
+	color: red;
+	font-weight: bolder;
+	font-style: italic;
+}
+
+#eastLake:hover
+{
+	transition: all 500ms ease-in-out;
+	transform: scale(160%);
+	color: rgb(0, 221, 255);
+}
+
+#jianghanlu:hover
+{
+	transition: all 500ms ease-in-out;
+	transform: scale(160%);
+	font-weight: bolder;
 }
