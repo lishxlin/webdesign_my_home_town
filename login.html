@@ -10,8 +10,16 @@
 	<div id="global">
 		<h3>To access console, please login</h3>
 		<br>
-		Username:&nbsp;<input align="left" name="name" size="20" maxlength="64" style="width:146px;" type="text">
-		<br>
+		<form id="form">
+			Username:&nbsp;<input id="usr" align="left" name="name" size="20" maxlength="64" style="width:146px;" type="text">
+			<br>
+			Password:&nbsp;<input id="pwd" align="left" name="password" size="20" maxlength="64" style="width:146px;" type="password">
+			<br>
+			<br>
+			<input id="login_word" class="btnStyle" name="Login" type="button" onclick="check()" value="Login">&nbsp;&nbsp;<input id="reset_word" class="btnStyle" name="Reset" type="reset" onclick="reset()" value="Reset">&nbsp;&nbsp;<input id="back_word" class="btnStyle" name="Login" type="button" onclick="back()" value="Back">
+			<br>
+			<br>
+		</form>
 		<br>
 	</div>
 	<script src="scripts/login-site.js"></script>
