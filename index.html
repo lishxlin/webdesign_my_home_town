@@ -21,8 +21,8 @@
 			<li class="listItem"><a class="link" href="/">首页</a></li>
 			<li class="listItem"><a class="link" href="/about_han.html">了解武汉</a></li>
 			<li class="listItem"><a class="link" href="/about_history.html">了解历史</a></li>
-			<li class="listItem"><a class="link" href="/where_to_play.html">玩</a></li>
-			<li class="listItem"><a class="link" href="/about_transport.html">交通</a></li>
+			<li class="listItem"><a class="link" onclick="to_play()">玩</a></li>
+			<li class="listItem"><a class="link" onclick="to_transport()">交通</a></li>
 		</ul>
 	</div>
 	<div id="main_contents" class="">
@@ -58,7 +58,7 @@
 		</div>
 		<!--Right contents container-->
 		<div id="contentRight">
-			<div class="right_theme">
+			<div id="content1" class="right_theme">
 				<h1>我可以在武汉玩什么</h1>
 				<p id="huanghe" class="contentRIGHTDETIAL">黄鹤楼</p>
 				<p id="daqiao" class="contentRIGHTDETIAL">长江大桥</p>
@@ -66,7 +66,7 @@
 				<p id="jianghanlu" class="contentRIGHTDETIAL">江汉路步行街</p>
 				<p class="contentRIGHTDETIAL">...</p>
 			</div>
-			<div class="right_theme">
+			<div id="content2" class="right_theme">
 				<h1>武汉的交通怎么样</h1>
 				<p class="contentRIGHTDETIAL_MINI">武汉，三镇一城，交通发达。</p>
 				<p class="contentRIGHTDETIAL_MINI">长江大桥，国家重器，连接南北。</p>
@@ -90,5 +90,6 @@ ISS026-E-12245@ NASA(2010.12.22::19:35:18 GMT)
 	<!-- Place script to buttom -->
 	<script src="scripts/redirect.js"></script>
 	<script src="scripts/loop_img.js"></script>
+	<script src="scripts/navigation.js"></script>
 </body>
 </html>
