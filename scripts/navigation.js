@@ -7,6 +7,7 @@ function to_play()
 	setTimeout(function (){
 		play.style.backgroundColor = "rgba(0, 0, 0, 0)";
 	} ,1000);
+	count++;
 }
 
 function to_transport()
